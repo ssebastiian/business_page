@@ -4,6 +4,8 @@ import { LayoutPrincipal } from '@/layouts/LayoutPincipal';
 import { Hero } from './Hero';
 import { ServiceCard } from './ServiceCard';
 import { ServicesSection } from './ServicesSection';
+import { ContactComponent } from './ContactComponent';
+import { ExpertiseComponent } from './ExpertiseComponent';
 
 export const HomeContent = () => {
 
@@ -12,6 +14,8 @@ export const HomeContent = () => {
         <Hero/>
         <ServiceCard/>
         <ServicesSection/>
+        <ExpertiseComponent/>
+        <ContactComponent/>
     </LayoutPrincipal>
   );
 };
